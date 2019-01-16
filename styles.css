@@ -1,0 +1,35 @@
+/* Goofy borders around everything to help us see the layout. */
+/** {
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    } */
+
+body {
+}
+
+/* flexbox mobile layout */
+
+.top {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+    border: 1px solid black;
+}
+
+.circles {
+    display: none;
+}
+
+/*styling */
+
