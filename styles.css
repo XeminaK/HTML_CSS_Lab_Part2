@@ -6,6 +6,7 @@
     } */
 
 body {
+   
 }
 
 /* flexbox mobile layout */
@@ -13,23 +14,79 @@ body {
 .top {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    /* border: 1px solid black; */
 }
 
 .middle {
     display: flex;
     flex-direction: column;
+    /* border: 1px solid black; */
 }
 
 .bottom {
     display: flex;
     flex-direction: column;
     height: 10%;
-    border: 1px solid black;
+    /*border: 1px solid black; */ 
 }
 
+/*don't display circles in mobile */
 .circles {
     display: none;
 }
 
 /*styling */
 
+html {
+    background-color: #f9fafc;
+    font-family: 'Open sans', sans-serif;
+}
+
+.navCompany, .name {
+    color:#000;
+}
+
+.navCompany {
+    font-size: 1rem;
+    font-weight: bold;
+    /* border: 1px solid black; */
+    height: 30px;
+}
+
+.name {
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #69696a;
+    font-size: 1rem;
+    /* border: 1px solid black; */
+    height: 30px;
+   
+}
+
+.button1, .button2 {
+    color: #f9fafc;
+    background-color: #000;
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+/* adujst bottom button spacing */
+
+.bottom {
+    margin-top: 20px;
+}
+
+.info {
+    border-left: solid #69696a;
+    border-left-width: 2px;
+    padding-left: 20px;
+    color: #69696a
+}
