@@ -97,24 +97,43 @@ a {
 
 /* flexbox layout for desktop */
 
+/*top layout*/
 .top {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.navCompany {
+    width: 60%;
+}
+
+.button1, .button2 {
+    width: 10%;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*middle layout*/
+.middle {
+    display: flex;
+    flex-direction: row;
      border: 1px solid black; 
 }
 
-.middle {
-    display: flex;
-    flex-direction: column;
-     border: 1px solid black; 
-}
+
 
 .bottom {
     display: flex;
-    flex-direction: column;
-    height: 10%;
-    /*border: 1px solid black; */ 
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid black; 
 }
 
 /*need to display circles in mobile */
