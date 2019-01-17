@@ -75,9 +75,41 @@ a {
     color: #69696a
 }
 
-/*desktop and table version*/
+/* tablet version :) */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 768px) {
+
+/* flexbox layout for tablet */
+
+    .top {
+        align-items: center;
+        
+    }
+
+    .circles {
+        display: inline-block;
+    }
+
+    .circle3 {
+        display: inline-block;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        background-color: rgba(247, 136, 167, 0.6);
+    }
+
+    .middle {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        height: 300px;
+    }
+
+}
+
+/*desktop version*/
+
+@media only screen and (min-width: 1200px) {
 
 /* flexbox layout for desktop */
 
@@ -176,6 +208,9 @@ a {
     z-index: 2;
     order: 2; 
 }
+
+/* extra styling */
+
 
 
 }
