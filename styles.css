@@ -1,34 +1,20 @@
-/* Goofy borders around everything to help us see the layout. */
-/** {
-    border: 2px solid cornflowerblue;
-    margin: 5px;
-    padding: 3px;
-    } */
-
-body {
-   
-}
-
 /* flexbox mobile layout */
 
 .top {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* border: 1px solid black; */
 }
 
 .middle {
     display: flex;
     flex-direction: column;
-    /* border: 1px solid black; */
 }
 
 .bottom {
     display: flex;
     flex-direction: column;
     height: 10%;
-    /*border: 1px solid black; */ 
 }
 
 /*don't display circles in mobile */
@@ -50,7 +36,6 @@ html {
 .navCompany {
     font-size: 1rem;
     font-weight: bold;
-    /* border: 1px solid black; */
     height: 30px;
 }
 
@@ -62,7 +47,6 @@ a {
     text-decoration: none;
     color: #69696a;
     font-size: 1rem;
-    /* border: 1px solid black; */
     height: 30px;
    
 }
@@ -103,7 +87,6 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid black; */
 }
 
 .navCompany {
@@ -130,12 +113,8 @@ a {
     flex-direction: row;
     height: 600px;
     align-items: center;
-    /* border: 1px solid black; */
 }
 
-.middle * {
-   /* border: 1px solid black;  */
-}
 
 .company {
     width: 50%; 
@@ -143,7 +122,6 @@ a {
     flex-direction: column;
     justify-content: center; 
     margin-left: 10px; 
-    /*border: 1px solid black; */
 }
 
 .name {
@@ -155,7 +133,6 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center; 
-    /* border: 1px solid black;  */
 }
 
 /*need to display circles on desktop */
