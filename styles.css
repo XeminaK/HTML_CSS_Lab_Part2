@@ -211,6 +211,32 @@ a {
 
 /* extra styling */
 
+/*added color changes when hovered*/
+.circle1:hover {
+    background-color: rgba(250, 0, 0, 0.7);
+}
 
+.circle2:hover {
+    background-color: rgba(0, 250, 0, 0.7);
+}
+
+.circle3:hover {
+    background-color: rgba(0, 0, 250, 0.7);
+}
+
+a:hover {
+    background-color: #000;
+    color: #f9fafc;
+}
+
+.button1:hover {
+    background-color: aqua;
+    color: #000;
+}
+
+.button2:hover {
+    background-color: aqua;
+    color: #000;
+}
 
 }
